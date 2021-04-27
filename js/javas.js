@@ -3,76 +3,76 @@ let userName =  prompt('Hey There, Tell Me What\'s Your Name?:)');
 alert('Welcome ' + userName);
 let score = 0;
 let x = prompt('Do I love desserts? (yes or no)').toLowerCase();
-if (x == 'yes')
-{
+if (x == 'yes' || x == 'y')
+{ 
     alert('yes That\'s right');
     console.log("true");
 score ++; }
-    else {
+     if (x == 'no' || x == 'n' )
         alert('You missed this.')
-    }
+    
 
 
 let y = prompt('Do I watch Anime?').toLowerCase();
-if (y == 'yes')
+if (y == 'yes' || y == 'y')
 {
     alert('yes That\'s right');
 console.log("true");
 score ++; }
-    else {
+else if (y == 'no' || y == 'n' )
         alert('You missed this.')
-    }
+
 
 let z = prompt('Am I a sleepy Person ').toLowerCase();
-if (z == 'no')
+if (z == 'no' || z == 'n' )
 {
     alert('That\'s right');
 console.log("true");
 score ++;}
-    else {
+else if  (z == 'yes' || z == 'y')
         alert('You missed this.')
-    }
+    
 
 let a = prompt('Do I enjoy Coding?').toLowerCase();
-if (a == 'yes')
+if  (a == 'yes' || a == 'y')
 {
     alert('yes That\'s right');
 console.log("true");
 score ++;}
-    else {
+else if (a == 'no' || a == 'n' )
         alert('You missed this too.')
-    }
+    
 
 let b = prompt('Am I raising a pet?').toLowerCase();
-if (b == 'no')
+if (b == 'no' || b == 'n' )
 {
     alert('That\'s right');
 console.log("true");
 score ++;}
-    else {
+else if  (b == 'yes' || b == 'y')
         alert('You missed this too.')
-    }
+    
 
 alert('Well Well, Not Bad Hope We Know Each Other Better Next Time, ' + userName);
 
 
-// let c = prompt('And now I\'m gonna Ask you to guess my favourite number, from 1 - 10 , you only have four attempts! ');
+let c = prompt('And now I\'m gonna Ask you to guess my favourite number, from 1 - 10 , you only have four attempts! ');
 
-// for (i = 1 ; i <= 4 ;i++ )
-// {
-//     if ( c < 3 ){
-//         c = prompt('Too Low, try Another');
-//     }
-//     else if ( c > 3 )
-//     {
-//         c = prompt ('Too High,Try Another');
-//     }
-//    else if ( c == 3 ) {
-//         alert('You Geussed it Right!');
-//         console.log("true");
-//         score ++;
-//     }
-//     }
+for (i = 1 ; i <= 4 ;i++ )
+{
+    if ( c < 3 ){
+        c = prompt('Too Low, try Another');
+    }
+    else if ( c > 3 )
+    {
+        c = prompt ('Too High,Try Another');
+    }
+   else if ( c == 3 ) {
+        alert('You Geussed it Right!');
+        console.log("true");
+        score ++;
+    }
+    }
 
 
 let dessert = ['cheesecake' , 'pancake' , 'waffles' , 'cake' ,'brownies'  ];

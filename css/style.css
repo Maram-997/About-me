@@ -11,10 +11,28 @@ h1{
 
 }
 
-p{
-    text-align: center;
+div ul {
+    color:  teal;
     background-color: peachpuff;
-    color: teal;
+    border: salmon;
+    border-style: double;
+    font-size: 20px; 
+
+}
+
+span {
+    color: peachpuff;
+    background-color: teal;
+    margin: 50px;
     font-size: 35px;
-    
+    border: salmon;
+
+}
+nav ol li {
+    color:  teal;
+    background-color: peachpuff;
+    border: salmon;
+    border-style: double;
+    font-size: 20px; 
+
 }

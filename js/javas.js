@@ -31,15 +31,28 @@ function q2() {
 
 q2();
 
+function q3(){
+    let z = prompt('Am I a sleepy Person ').toLowerCase();
+    if (z == 'no' || z == 'n') {
+        alert('That\'s right');
+        console.log('true');
+        score++;
+    }
+    else if (z == 'yes' || z == 'y'){
+        alert('You missed this.');
+    }
+}
+q3();
+
 let z = prompt('Am I a sleepy Person ').toLowerCase();
 if (z == 'no' || z == 'n') {
     alert('That\'s right');
     console.log('true');
     score++;
 }
-else if (z == 'yes' || z == 'y')
+else if (z == 'yes' || z == 'y'){
     alert('You missed this.');
-
+}
 
 let a = prompt('Do I enjoy Coding?').toLowerCase();
 if (a == 'yes' || a == 'y') {

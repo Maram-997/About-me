@@ -44,15 +44,20 @@ function q3(){
 }
 q3();
 
-let z = prompt('Am I a sleepy Person ').toLowerCase();
-if (z == 'no' || z == 'n') {
-    alert('That\'s right');
-    console.log('true');
-    score++;
+function q4(){
+    let z = prompt('Am I a sleepy Person ').toLowerCase();
+    if (z == 'no' || z == 'n') {
+        alert('That\'s right');
+        console.log('true');
+        score++;
+    }
+    else if (z == 'yes' || z == 'y'){
+        alert('You missed this.');
+    }
 }
-else if (z == 'yes' || z == 'y'){
-    alert('You missed this.');
-}
+
+q4();
+
 
 let a = prompt('Do I enjoy Coding?').toLowerCase();
 if (a == 'yes' || a == 'y') {

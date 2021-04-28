@@ -58,16 +58,18 @@ function q4(){
 
 q4();
 
-
-let a = prompt('Do I enjoy Coding?').toLowerCase();
-if (a == 'yes' || a == 'y') {
-    alert('yes That\'s right');
-    console.log('true');
-    score++;
+function q5(){
+    let a = prompt('Do I enjoy Coding?').toLowerCase();
+    if (a == 'yes' || a == 'y') {
+        alert('yes That\'s right');
+        console.log('true');
+        score++;
+    }
+    else if (a == 'no' || a == 'n'){
+        alert('You missed this too.');
+    }
 }
-else if (a == 'no' || a == 'n')
-    alert('You missed this too.');
-
+q5();
 
 let b = prompt('Am I raising a pet?').toLowerCase();
 if (b == 'no' || b == 'n') {

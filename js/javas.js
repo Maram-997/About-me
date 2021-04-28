@@ -44,21 +44,8 @@ function q3(){
 }
 q3();
 
+
 function q4(){
-    let z = prompt('Am I a sleepy Person ').toLowerCase();
-    if (z == 'no' || z == 'n') {
-        alert('That\'s right');
-        console.log('true');
-        score++;
-    }
-    else if (z == 'yes' || z == 'y'){
-        alert('You missed this.');
-    }
-}
-
-q4();
-
-function q5(){
     let a = prompt('Do I enjoy Coding?').toLowerCase();
     if (a == 'yes' || a == 'y') {
         alert('yes That\'s right');
@@ -69,36 +56,45 @@ function q5(){
         alert('You missed this too.');
     }
 }
-q5();
+q4();
 
-let b = prompt('Am I raising a pet?').toLowerCase();
-if (b == 'no' || b == 'n') {
-    alert('That\'s right');
-    console.log('true');
-    score++;
+function q5(){
+    let b = prompt('Am I raising a pet?').toLowerCase();
+    if (b == 'no' || b == 'n') {
+        alert('That\'s right');
+        console.log('true');
+        score++;
+    }
+    else if (b == 'yes' || b == 'y'){
+        alert('You missed this too.');
+    }
 }
-else if (b == 'yes' || b == 'y')
-    alert('You missed this too.');
+ q5();
+
 
 
 alert('Well Well, Not Bad Hope We Know Each Other Better Next Time, ' + userName);
 
+function q6(){
+    let c = prompt('And now I\'m gonna Ask you to guess my favourite number, from 1 - 10 , you only have four attempts! ');
 
-let c = prompt('And now I\'m gonna Ask you to guess my favourite number, from 1 - 10 , you only have four attempts! ');
-
-for (i = 1; i <= 4; i++) {
-    if (c < 3) {
-        c = prompt('Too Low, try Another');
+    for (i = 1; i <= 4; i++) {
+        if (c < 3) {
+            c = prompt('Too Low, try Another');
+        }
+        else if (c > 3) {
+            c = prompt('Too High,Try Another');
+        }
+        else if (c == 3) {
+            alert('You Geussed it Right!');
+            console.log('true');
+            score++;
+        }
     }
-    else if (c > 3) {
-        c = prompt('Too High,Try Another');
-    }
-    else if (c == 3) {
-        alert('You Geussed it Right!');
-        console.log('true');
-        score++;
-    }
+    
 }
+q6();
+
 
 
 let dessert = ['cheesecake', 'pancake', 'waffles', 'cake', 'brownies'];

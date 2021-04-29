@@ -1,3 +1,8 @@
+
+body{
+    background-color: AntiqueWhite;
+}
+
 h1{
     color: peachpuff;
     background-color: teal;
@@ -7,9 +12,16 @@ h1{
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: 'Original Surfer', cursive;
+    top: 0px;
+    position: sticky;
+  
 
 }
+
+ 
+
+
 
 div ul {
     color:  teal;
@@ -17,6 +29,9 @@ div ul {
     border: salmon;
     border-style: double;
     font-size: 20px; 
+    font-family: 'New Tegomin', serif;
+    margin: 20px;
+    margin-left: 40px;
 
 }
 
@@ -26,6 +41,8 @@ span {
     margin: 50px;
     font-size: 35px;
     border: salmon;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 10px;
 
 }
 nav ol li {
@@ -34,5 +51,8 @@ nav ol li {
     border: salmon;
     border-style: double;
     font-size: 20px; 
+    font-family: 'New Tegomin', serif;
+    margin: 20px;
+    margin-left: 40px;
 
 }
